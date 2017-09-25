@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laiji.zhuishu2.activity.SplashActivity">
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:src="@drawable/splash_bottom_bg"
+        android:layout_alignParentBottom="true"
+        />
+    <com.example.laiji.zhuishu2.widget.SkipVIew
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/skipview"
+        />
+</RelativeLayout>
